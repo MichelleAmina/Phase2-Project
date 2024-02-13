@@ -1,0 +1,71 @@
+
+
+.home-header{
+    position: relative;
+}
+
+.home-header-text{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    width: 40%;
+    
+}
+
+.home-header-text h4{
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.home-header-text h1{
+    font-size: 70px;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+.home-header-text p{
+    color: #222121;
+    margin-top: 10px;
+    line-height: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+/*Middle part of home page*/
+
+.home-mid-text{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.home-mid-text h4{
+    color: #4c4c4c;
+}
+
+.home-mid-text h2{
+    font-weight: normal;
+    font-size: 50px;
+}
+
+.home-mid-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.home-mid-content img{
+    height: 380px;
+    width: 300px;
+}
+
+.home-mid-content h3{
+    margin-top: 10px;
+}
+
+.home-mid-content h3, p{
+    font-weight: normal;
+    text-align: center;
+
+}

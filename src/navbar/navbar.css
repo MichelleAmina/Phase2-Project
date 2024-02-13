@@ -53,6 +53,14 @@
     font-size: 18px;
 }
 
+.nav-link.active{
+    color: #A86E3B;
+}
+
+.nav-link:hover{
+    color: #b88a5f;
+}
+
 
 
 
