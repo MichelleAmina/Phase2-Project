@@ -1,10 +1,12 @@
 import './home.css'
 
+
+
 function Home(){
     return(
         <div className="home-container">
             <div className="home-header">
-                <img src="https://dam.bluenile.com/images/public/19683/Affordable_Engagement_Ring.jpeg" alt="banner" />
+                <img src="header.jpeg" alt="banner" />
                 <div className="home-header-text">
                     <h4>New Collection</h4>
                     <h1>The new ring sensation</h1>
