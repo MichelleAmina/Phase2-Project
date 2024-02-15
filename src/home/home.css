@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+hr{
+    width: 80px;
+    margin: 0px auto;
+    margin-top: 5px;
+    border: 0.5px solid #a86e3b;
+}
+
 /* Header */
 .home-header {
     position: relative;
@@ -66,7 +73,13 @@
 .home-mid-content img {
     height: 380px;
     width: 300px;
+    transition: transform 0.3s ease; 
 }
+
+.home-mid-content img:hover {
+    transform: scale(1.1); 
+}
+
 
 .home-mid-content h3 {
     margin-top: 10px;
@@ -82,57 +95,90 @@
 /* Lower Section */
 .home-lower {
     display: flex;
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: space-between;
+    /*align-items: center;*/
+    margin: 100px 0;
 }
 
-.home-lowe-text {
-    text-align: left;
-    max-width: 600px;
-    padding: 0 20px;
+.home-lower-text {
+    max-width: 300px;
+    margin: 200px 0;
+    margin-left: 90px;
+   /* font-family: "Cinzel", serif;*/
+
 }
 
-.home-lowe-text h4 {
-    font-size: 20px;
-    color: #333;
+.home-lower-text h4, h2{
+    font-family: "Cinzel", serif;
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
-.home-lowe-text p {
+
+.home-lower-text h2{
+    font-size: 50px;
+}
+
+
+.home-lower-text p {
     font-size: 16px;
-    color: #666;
+    color: #4c4c4c;
     line-height: 1.6;
+    font-family: "Roboto", sans-serif;
 }
 
 .home-lower-right {
-    display: flex;
-    justify-content: flex-end;
+    position: relative;
+    margin-right: 90px;
+}
+
+.home-lower-right img{
+    height: 700px;
+    width: 550px;
 }
 
 .home-small-right {
-    width: 5px;
-    height: 5px;
+    position: absolute;
+    top: 15%;
+    left: -55%;
+}
+
+.home-small-right img{
+    height: 500px;
+    width: 400px;
 }
 
 /* Why Choose Us Section */
 .why-choose-us-container {
     text-align: center;
-    margin: 50px 0;
+    margin: 0 auto;
+    max-width: 700px;
+    align-items: center;
+    justify-content: center;
+   
 }
 
-.why-choose-us-container h2 {
-    font-size: 24px;
-    color: #333;
+.why-choose-us-container h4{
+    font-weight: normal;
+    text-transform: uppercase;
 }
 
-.why-choose-us-container h3 {
-    font-size: 60px;
-    color: #060505;
+.why-choose-us-container h2{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: normal;
+
 }
 
 .why-choose-us-container p {
     font-size: 20px;
-    color: #000000;
+    color: #4c4c4c;
     line-height: 1.6;
+}
+
+.why-choose-us-container hr{
+    margin-top: 20px;
+    border-color: #a86e3b;
 }
 
 /* Promotion Section */
@@ -142,21 +188,30 @@
     margin-top: 50px;
 }
 
-.promotion-card {
-    flex: 1;
-    text-align: center;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+.promotion-card{
+    width: 300px;
+    text-align: left;
+   /* background-color: yellow;*/
+    padding: 10px;
+   /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);*/
+}
+
+.promotion-card .promotion-icon{
+    font-size: 50px;
+    color: #4c4c4c8a;
+    
+    
 }
 
 .promotion-card h2 {
-    font-size: 24px;
+    text-transform: uppercase;
     margin-bottom: 10px;
 }
 
 .promotion-card p {
     font-size: 16px;
-    color: #666;
+    color: #4c4c4c;
+    font-family: "Roboto", sans-serif;
+    line-height: 1.5;
+    font-weight: light;
 }
