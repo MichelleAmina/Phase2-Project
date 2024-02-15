@@ -1,0 +1,67 @@
+.jewelery{
+    margin: 0 70px;
+    border-top: solid 1px rgb(232, 227, 227);
+}
+
+
+.jewelery h1{
+    font-size: 50px;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+
+}
+
+.jewelery-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.jewelery-content p{
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+    text-align: left;
+}
+
+
+select{
+    padding: 5px;
+    border: dotted 1px lightgray;
+    font-family: "Roboto", sans-serif;
+    color: #4c4c4c;
+
+}
+
+.jewelery-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+}
+
+
+.jewelery-data{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.jewelery-data img {
+    height: 380px;
+    width: 300px;
+    transition: transform 0.3s ease; 
+    
+}
+
+.jewelery-data img:hover {
+    transform: scale(1.1); 
+}
+
+
+.jewelery-data .jewel-title, .jewel-p{
+    width: 300px;
+    text-align: center;
+    margin-top: 10px;
+    font-weight: normal;
+    text-transform: uppercase;
+    padding: 0 5px;
+}
