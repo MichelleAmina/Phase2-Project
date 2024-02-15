@@ -6,6 +6,7 @@ import Bracelets from "./jewelery/Bracelets";
 import Rings from "./jewelery/Rings";
 import Earrings from "./jewelery/Earrings";
 import Necklace from "./jewelery/Necklace";
+import About from "./about/About";
 
 function Pages() {
 
@@ -40,6 +41,7 @@ const filteredEarring= jewelryData.filter(jewel => jewel.category === "Earring")
             <div className="page">
                 <Routes>
                     <Route path='/' element={<Home/>}></Route>
+                    <Route path='About' element={<About/>}></Route>
                     <Route path='Rings' element={<Rings rings={filteredRings} />}></Route>
                     <Route path='Bracelets' element={<Bracelets bracelets={filteredBracelets}/>}></Route>
                     <Route path='Earrings' element={<Earrings  earrings={filteredEarring}/>}></Route>
