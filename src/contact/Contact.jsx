@@ -21,7 +21,7 @@ function Contact() {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        // Prepare the data to send
+        
         const contactData = {
             id: formData.id,
             email: formData.email,
@@ -46,12 +46,12 @@ function Contact() {
         })
         .then(data => {
             console.log('Contact data submitted successfully:', data);
-            // Optionally, you can perform any actions after successful submission here
+           
            
         })
         .catch(error => {
             console.error('There was a problem submitting contact data:', error);
-            // Optionally, you can handle errors here
+            
         });
     
         // Reset the form data
