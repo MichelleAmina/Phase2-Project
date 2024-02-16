@@ -18,12 +18,10 @@ function About() {
                     <div className='about-history-content'>
                          <h4>Europhia Team</h4>
                          <h2>About The Founders</h2>
-                         <h3> Adorn yourself with jewels that mirror the brilliance within, for each gem whispers tales of resilience, elegance, and the beauty found in every journey. </h3>
-                         <p>At <span>Euphoria</span>, our team of founders share a common background from Moringa School. Our collective vision revolves around showcasing and celebrating the rich authenticity of African heritage.
-                         Driven by a passion for jewelry and a deep appreciation for African culture.</p>
+                         <h3> Adorn yourself with jewels that mirror the brilliance within. </h3>
+                         <p> Our collective vision revolves around showcasing and celebrating the rich authenticity of African heritage.Driven by a passion for jewelry and a deep appreciation for African culture.</p>
                          <br/>
-                         <p> With our roots firmly planted in the values instilled at Moranga School, we are dedicated to offering exquisite jewelry pieces inspired by the intricate designs and traditions of Africa.</p>
-                         <p>Join us as we embark on this journey to share the allure of African jewelry with the world, one stunning piece at a time.</p>
+                         <p> We are dedicated to offering exquisite jewelry pieces inspired by the intricate designs and traditions of Africa.Join us as we embark on this journey to share the allure of African jewelry with the world, one stunning piece at a time.</p>
                     </div>
                 <div className='about-history-image'>
                     <img src="https://www.shutterstock.com/image-photo/smile-black-woman-portrait-african-600nw-2300500653.jpg" alt="weuh" />

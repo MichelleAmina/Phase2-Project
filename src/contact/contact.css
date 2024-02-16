@@ -97,6 +97,9 @@
     width: calc(50% - 40px); /* Adjust width for padding and margin */
     padding: 10px;
     border: 1px solid #ccc;
+    color: #4c4c4c;
+    font-family: "Roboto", sans-serif;
+    font-weight: light;
 }
 
 .contact-form input[type='email'],
@@ -105,6 +108,9 @@
     padding: 10px;
     margin-bottom: 15px; /* Add margin between input boxes */
     border: 1px solid #ccc;
+    color: #4c4c4c;
+    font-family: "Roboto", sans-serif;
+    font-weight: light;
     
 
 }
