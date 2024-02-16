@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import './contact.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
+
 function Contact() {
     const [formData, setFormData] = useState({
         firstName: '',
@@ -46,6 +47,7 @@ function Contact() {
         .then(data => {
             console.log('Contact data submitted successfully:', data);
             // Optionally, you can perform any actions after successful submission here
+           
         })
         .catch(error => {
             console.error('There was a problem submitting contact data:', error);
@@ -92,7 +94,7 @@ function Contact() {
                     <h2>Message Us</h2>
                     <p>Have a question or want to inquire about a custom piece? Simply drop us a message using the form below, and our dedicated team will get back to you as soon as possible.</p>
                     <p onClick={openPhone}><span className="fas fa-phone-alt" style={{ marginRight: '10px' , cursor: 'pointer'}}></span> 0712345678</p>
-                    <p onClick={openEmail}><span className="fas fa-envelope" style={{ marginRight: '10px' , cursor: 'pointer'}}></span> group14@gmail.com</p>
+                    <p onClick={openEmail}><span className="fas fa-envelope" style={{ marginRight: '10px' , cursor: 'pointer'}}></span> Euphoria@gmail.com</p>
                     <p onClick={openGoogleMaps}><span className="fas fa-map-marker-alt" style={{ marginRight: '10px' , cursor: 'pointer'}}></span> Ngong Lane, Along Ngong Road, Nairobi</p>
                 </div>
 
@@ -119,6 +121,7 @@ function Contact() {
                     height='400px'
                 ></iframe>
             </div>
+        
         </div>
     );
 }
