@@ -2,6 +2,14 @@
 
 # Authors: Michelle Amina Okumu , Leila Abdi, Daniel Baru, Norah Kibathi, Abdishukri Mohamed, Macdonald Muhavi
 
+# Introduction 
+Euphoria is a group project made as part of Phase2 Week 3 Independent Poroject. It's a web application built with react that fetches data from a deployed db.json page (https://euphoria-git-main-michelle-aminas-projects.vercel.app/Jewelery) and posts data to the same page (https://euphoria-git-main-michelle-aminas-projects.vercel.app/Contact).
+
+Euphoria is you're one stop shop for everything jewelery. For beautiful unique pieces with a wide range of prices, check out our inventory. Spend some time on the application and learn a little more about us. We're always ready to help so feel free to contact us or even leave some feedback on how we can improve our service
+
+## Link to live project 
+https://euphoria-jewelery.vercel.app/
+
 ## Project Requirements
 1. Make a single page application (only one index.html file) using create-react-app
 2. Your app should use at least 5 components in a way that keeps your code well organized
@@ -24,6 +32,20 @@
 8. Contact (Contact.jsx, contact.css) - Contains all contact page and all associated information. Also has a contact form that can be filled, and a POST request sent to the deployed db.json to store the information. 
 
 ## To run the program/ setup instructions 
+- Clone the repository and naviate to the project directory. 
+- Install the required dependencies 
+npm install
+- Start the server 
+npm run dev
+- Visit the provided route 
+eg http://localhost:5173/
+
+### From the live project 
+Open the project link in the browser of your choice. Welcome to Euphoria! You will initially land on the Home page. Feel free to scroll viewing our new and latest products. At the bottom of the page is a Footer containing all our Contact information as well as links to other pages. 
+In the About page, get to know a little about us and our team. As well as our journey from inception.
+Contact page. Feel free to reach out to us or even send us some constructive critisism using out contact us form. There's also a map showing you where we're located in case you want to pay us a visit.
+On the left of the navigation bar are out jewelery pages. Click on one! scroll through our products and filter based on your preferences. 
+I hope you enjoyed your experience on our web application. 
 
 
 ## Licence 
