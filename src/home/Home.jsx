@@ -26,22 +26,22 @@ function Home(){
                 <div className="home-mid-images">
                     <div className="home-mid-content">
                     <img src="/1124edd94a94a25710b78f8393727388.jpg" alt="" />
-                    <h3>Product name 1</h3>
-                    <p>$300</p>
+                    <h3>Emerald bracelet with diamonds</h3>
+                    <p>$1300</p>
                     </div>
                     <div className="home-mid-content">
                     <img src="/c75b3fcdc3ddb736d1bd4451d8df6f7e.jpg" alt="" />
-                    <h3>Product name 2</h3>
+                    <h3>Saphire necklace</h3>
                     <p>$700</p>
                     </div>
                     <div className="home-mid-content">
                     <img src="/beb7902ee08bf5db47dbd7bd7993611f.jpg" alt="" />
-                    <h3>Product name 3</h3>
+                    <h3>Gold and marble bracelet</h3>
                     <p>$1500</p>
                     </div>
                     <div className="home-mid-content">
                     <img src="/e34a65184e647e41997f2214f3c9328f.jpg" alt="" />
-                    <h3>Product name 4</h3>
+                    <h3>18k Gold Earrings</h3>
                     <p>$1000</p>
                     </div>
                     
@@ -54,23 +54,23 @@ function Home(){
                 <div className="home-mid-images">
                     <div className="home-mid-content">
                     <img src="/95efe514d75525cb308be7f1b0652fda.jpg" alt="" />
-                    <h3>Product name 1</h3>
+                    <h3>Zircona butterfly ring</h3>
                     <p>$500</p>
                     </div>
                     <div className="home-mid-content">
                     <img src="/5ce57a153c88c23b5bb550faee4b86e2.jpg" alt="" />
-                    <h3>Product name 2</h3>
+                    <h3>Double hoop pearl necklace</h3>
                     <p>$800</p>
                     </div>
                     <div className="home-mid-content">
                     <img src="/088ca799476956919b4716ec26d09b1d.jpg" alt="" />
-                    <h3>Product name 3</h3>
+                    <h3>Morganite and diamond engagement ring</h3>
                     <p>$4000</p>
                     </div>
                     <div className="home-mid-content">
                     <img src="/8fef0e4f1e10a5be132c82ec51f79e9c.jpg" alt="" />
-                    <h3>Product name 4</h3>
-                    <p>$2000</p>
+                    <h3>Rose gold teardrop Earrings</h3>
+                    <p>$900</p>
                     </div>
                     
                 </div>
