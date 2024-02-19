@@ -64,7 +64,7 @@ function Home(){
                     </div>
                     <div className="home-mid-content">
                     <img src="/088ca799476956919b4716ec26d09b1d.jpg" alt="" />
-                    <h3>Morganite and diamond engagement ring</h3>
+                    <h3>Morganite ring</h3>
                     <p>$4000</p>
                     </div>
                     <div className="home-mid-content">
