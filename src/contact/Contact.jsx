@@ -3,6 +3,8 @@ import './contact.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
+
+
 function Contact() {
     const [formData, setFormData] = useState({
         firstName: '',
@@ -22,6 +24,7 @@ function Contact() {
     const handleSubmit = (e) => {
         e.preventDefault();
         
+        // Data to be sent 
         const contactData = {
             id: formData.id,
             email: formData.email,
@@ -46,7 +49,7 @@ function Contact() {
         })
         .then(data => {
             console.log('Contact data submitted successfully:', data);
-           
+            // Optionally, you can perform any actions after successful submission here
            
         })
         .catch(error => {
@@ -61,6 +64,7 @@ function Contact() {
             email: '',
             message: '',
         });
+        
     };
     
 
@@ -106,7 +110,7 @@ function Contact() {
                         </div>
                         <input type='email' placeholder='Email Address' name='email' value={formData.email} onChange={handleChange} />
                         <textarea name='message' value={formData.message} onChange={handleChange} />
-                        <button type="submit" className="form-button" >
+                        <button type="submit" className="form-button">
                             SEND
                         </button>
                     </form>
@@ -121,7 +125,7 @@ function Contact() {
                     height='400px'
                 ></iframe>
             </div>
-        
+            
         </div>
     );
 }
